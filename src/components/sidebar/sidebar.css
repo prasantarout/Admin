@@ -1,0 +1,43 @@
+.sidebar{
+    flex:1;
+    height:calc(100vh - 50px);
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+    
+}
+.sidebarWrapp{
+padding: 20px;
+color: #fff;
+}
+.sidebarMenu{
+    margin-bottom: 10px;
+}
+.sidebarTitle{
+    font-size: 13px;
+    color: rgb(243, 207, 207);
+}
+.sidebarList{
+    list-style:  none;
+    padding: 5px;
+}
+.sidebarListItems{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    
+    
+}
+.sidebarListItems.active,.sidebarListItems:hover{
+    background-color: rgb(141, 140, 140);
+}
+.sidebarIcon{
+    margin-right: 5px;
+    font-size: 20px !important;
+}

@@ -1,0 +1,57 @@
+.topbar{
+    width: 100%;
+    height: 50px;
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    position: sticky;
+    top:0;
+    z-index:99999;
+}
+.topbarWrapper{
+height: 100%;
+padding:0px 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    font-weight:800;
+    cursor: pointer;
+    color: rgb(179, 171, 169);
+}
+.topRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topIconContainer{
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: rgb(236, 229, 229);
+}
+.topIconBag{
+    position: absolute;
+    top:-5px;
+    right: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 10px;
+    
+}
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
